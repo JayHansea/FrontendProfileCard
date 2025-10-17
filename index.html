@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Wizards - Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Profile Card Root Container -->
+      <article class="profile-card" data-testid="test-profile-card">
+        <!-- Avatar Section -->
+        <figure class="profile-avatar-container">
+          <img
+            src="https://avatars.githubusercontent.com/u/38697504?v=4"
+            alt="A profile picture of Tochukwu Ezeokafor"
+            class="profile-avatar"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <!-- Main Info Section -->
+        <div class="profile-info">
+          <header>
+            <h1 class="user-name" data-testid="test-user-name">
+              Tochukwu Ezeokafor
+            </h1>
+          </header>
+
+          <p class="user-bio" data-testid="test-user-bio">
+            A passionate frontend developer from the digital realm, transforming
+            ideas into reality with clean code and creative design.
+          </p>
+
+          <div class="time-display">
+            Current time (ms):
+            <span data-testid="test-user-time" class="time-value"></span>
+          </div>
+
+          <!-- Social Links List -->
+          <ul class="social-links" data-testid="test-user-social-links">
+            <li>
+              <a
+                href="https://github.com/jayhansea"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tochukwu-ezeokafor/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://x.com/Jayhansea"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+
+          <div class="lists-container">
+            <!-- Hobbies List -->
+            <section class="list-section">
+              <h2>Hobbies</h2>
+              <ul data-testid="test-user-hobbies">
+                <li>Coding</li>
+                <li>Bug fixing</li>
+                <li>Problem Solving</li>
+              </ul>
+            </section>
+
+            <!-- Dislikes List -->
+            <section class="list-section">
+              <h2>Dislikes</h2>
+              <ul data-testid="test-user-dislikes">
+                <li>Slow Internet</li>
+                <li>Unorganized codebase</li>
+                <li>Unresponsive Designs</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
