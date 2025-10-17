@@ -2,13 +2,13 @@
 
 HNG Internship - A small, accessible, responsive Profile Card component/page using semantic HTML and modern frontend patterns using plain HTML/CSS/vanilla JS
 
-A responsive, accessible profile card built using **semantic HTML**, **modern CSS**, and **vanilla JS**.
-
 ## 🚀 Run locally
 
 ```bash
 git clone https://github.com/JayHansea/FrontendProfileCard.git
+
 cd FrontendProfileCard
+
 open index.html
 ```
 
